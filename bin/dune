@@ -1,0 +1,4 @@
+(executable
+ (public_name prolog)
+ (name main)
+ (libraries prolog parser_interface linenoise database ast evaluator))

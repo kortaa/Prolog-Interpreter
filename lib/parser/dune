@@ -1,0 +1,7 @@
+(library
+(name parser)
+(libraries ast menhirLib))
+
+(menhir
+ (modules parser)
+ (flags --table -la 2))

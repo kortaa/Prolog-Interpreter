@@ -1,0 +1,5 @@
+(library
+ (name prolog)
+ (libraries parser))
+
+ (env (dev (flags (:standard -warn-error -A))))
